@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Giriş Yap</title>
+</head>
+<body>
+    <h2>Giriş</h2>
+    <form method="post">
+        Kullanıcı Adı: <input type="text" name="username"><br>
+        Şifre: <input type="password" name="password"><br>
+        <input type="submit" value="Giriş Yap">
+    </form>
+    <a href="{{ url_for('register') }}">Kayıt Ol</a>
+</body>
+</html>
